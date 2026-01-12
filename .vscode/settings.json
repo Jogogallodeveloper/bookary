@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.css": "css"
+  },
+  "editor.colorDecorators": true,
+  "css.validate": true
+}
