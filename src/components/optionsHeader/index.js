@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 
 const textOptions = ['CATEGORIES', 'FAVORITES', 'MY WISH LIST'];
 
@@ -12,6 +12,6 @@ function OptionsHeader() {
       ))}
     </ul>
   );
-};
+}
 
 export default OptionsHeader;
