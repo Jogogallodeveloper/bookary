@@ -180,3 +180,5 @@ If you'd like, I can also:
 - Add a `.env.example`, or helpful `npm` scripts for running both client and server
 
 Let me know which of the above you'd like me to do next.
+
+See `CODE_STYLE.md` for code style and formatting details.
