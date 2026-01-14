@@ -8,8 +8,8 @@ function IconsHeader() {
   return (
     <ul className="icons">
       {icons.map((icon) => (
-        <li className="icon">
-          <img src={icon}></img>
+        <li className="icon" key={icon}>
+          <img src={icon} alt="ícone" />
         </li>
       ))}
     </ul>
