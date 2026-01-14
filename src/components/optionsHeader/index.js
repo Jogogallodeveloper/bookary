@@ -6,7 +6,7 @@ function OptionsHeader() {
   return (
     <ul className="options">
       {textOptions.map((text) => (
-        <li className="option">
+        <li className="option" key={text}>
           <p>{text}</p>
         </li>
       ))}
