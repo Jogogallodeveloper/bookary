@@ -5,13 +5,24 @@ import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
- body {
-   margin: 0;
- }
- 
- li {
-   list-style: none;   
- }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #002f52 35%, #326589 165%);
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  ul { margin: 0; padding: 0; }
+  li { list-style: none; }
 `;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
