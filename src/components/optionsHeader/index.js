@@ -12,7 +12,7 @@ const OptionContainer = styled.li`
   height: 100%;
   padding: 0 5px;
   cursor: pointer;
-  min-width: 120px;
+  min-width: 100px;
 `;
 
 const textOptions = ['CATEGORIES', 'FAVORITES', 'MY WISH LIST'];
